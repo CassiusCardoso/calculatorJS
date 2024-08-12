@@ -1,39 +1,3 @@
-// // Pegar o display que aparece os valores 
-// const display = document.querySelector('#display')
-
-// // Pegar os botões com números
-// const btn = document.querySelector('.number')
-
-// // Pegar o sinal de igual, que ao ser clicado vai resultar o valor 
-// const calculate = document.querySelector('.calculate')
-
-// // Pegar os botões com operações (*, +, -, divisão) exceto o de igual
-// const btnOperator = document.querySelector('.operator-btn')
-
-// // Evento no botão de números
-// btn.addEventListener('click', appendDisplay(input))
-
-// function appendDisplay(input){
-//     display.value += input;
-// }
-
-// btnOperator.addEventListener('click', clearDisplay)
-// function clearDisplay(){
-//     display.value = '';
-// }
-
-
-
-// function calculate(){
-//     try{
-//         display.value = eval(display.value);
-//     }
-//     catch(error){
-//         display.value = 'Error';
-//     }
-
-// }
-
 const display = document.querySelector('#display');
 
 // Pegar todos os botões com números e operadores
